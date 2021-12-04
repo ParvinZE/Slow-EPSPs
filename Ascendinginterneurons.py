@@ -7,8 +7,7 @@ Created on Tue Aug 01 14:51:51 2017
 
 
 from neuron import h
-#h.nrn_load_dll("C:/ResultNeuron/2018/Jan/Network/nrnmech.dll")
-#'./nrnmech.dll'
+
 class ASIN:
     def __init__ (self):
         self.soma = h.Section(name='soma',cell=self)       
