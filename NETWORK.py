@@ -92,7 +92,7 @@ for a in range(1):
            'preConds': {'popLabel': [b]},        # connection from
            'postConds': {'popLabel': [g]},      # connnection to
            'probability':1,                # probability of connection (.25)
-           'weight': 0.02,                   # synaptic weight 
+           'weight': 0.0048,                   # synaptic weight 
            'delay': randint(10,20),            # transmission delay (ms) 
            'synMech': 'sepsp'}   
         
@@ -106,7 +106,7 @@ for a in range(1):
            'preConds': {'popLabel': [b]},        # connection from
            'postConds': {'popLabel': [g]},      # connnection to
            'probability':1,                # probability of connection (.25)
-           'weight':0.02,                   # synaptic weight 
+           'weight':0.06,                   # synaptic weight 
            'delay': randint(10,20),            # transmission delay (ms) 
            'synMech': 'alpha'}       
         
@@ -120,7 +120,7 @@ for a in range(1):
            'preConds': {'popLabel': [b]},        # connection from
            'postConds': {'popLabel': [g]},      # connnection to
            'probability':1,                # probability of connection (.25)
-           'weight':0.02,                   # synaptic weight 
+           'weight':0.06,                   # synaptic weight 
            'delay': randint(10,20),            # transmission delay (ms) 
            'synMech': 'gabac'}      
 
