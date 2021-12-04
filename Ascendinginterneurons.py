@@ -36,20 +36,7 @@ class ASIN:
              soma.erev_KM=-85
              soma.Vshift_KM = 30
              soma.ntmid_jKDR =70
-#    def createSynapses(self):
-#        self.soma =h.Section(name='soma',cell=self)  
-#        self.syngabac=h.Exp2Syn(self.soma(0.5))
-#        self.syngabac.e=-35
-#        self.syngabac.tau1=50
-#        self.syngabac.tau2=20
-#        
-#
-#    def createNetcon(self, thresh=0):
-#        """ created netcon to record spikes """
-#        h.NetCon(self.soma(0.5)._ref_v, self.syngabac, sec = self.soma)
-#        h.weight=0.003
-#        h.thresh=1
-#        
+        
 
         
              
